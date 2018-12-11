@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+	  <link rel="stylesheet" href="jqueryui/jquery-ui.css">
+	  <link rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
+	  <link rel="stylesheet" href="jqueryui/jquery-ui.theme.css">
+
+	
+	<title>AdemovicTech</title>
+  </head>
+  
+ <body>
+  <div id="header" style="margin: 10px; border-radius: 10px; background-color: teal;">
+  
+    <h3>  ademovic.com.ng </h3>
+
+ </div>
+
+ <nav class="navbar navbar-inverse" style="margin: 10px; border-radius: 10px; background-color: teal;">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="index.html"> AV Tech</a>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navCollapse"> 
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+	
+	<div class="collapse navbar-collapse" id="navCollapse">	
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+		<li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a></li>
+		<li><a href="contact.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		</ul>
+		<form class="navbar-form nav navbar-right">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="search">
+			</div>
+			<button type="submit" class="btn btn-danger">Submit</button>
+		</form>
+	</div>
+	</div>
+</nav>
+<!-- #f0fff0-->
+<div style="background-color: #e8f3e8; margin-left: 10px; margin-right: 10px; padding: 15px; text-align: center; margin-bottom: 10px; border-radius: 30px;">
+
+		<img src="image/image3.jpg" title="Nelson Adeleke" class="img-circle img-responsive center-block">
+		<h2 style="color: maroon">Nelson Adeleke <small><i>CEO</i></small></h2>
+			<p>Segun Nelson is an automobile engineer with proven experience in automobile diagnosis.
+			<br> His invaluable expertise scales through different world-class best practices in automobile repairs.
+			<br>Segun is a graduate of Mechanical Engineering at the Federal University of Technology, Akure, where he acquired
+			<br>the basic skills in automobile engineering.
+			<br>He also acquired a Diploma in Automobile Engineering at the SHELFIED Institute of Technology, England.
+</div>
+	
+
+	<div class="row">
+		<div class="col-md-6">
+			<div style="background-color: darkseagreen; padding: 10px;  border-left: 10px solid darkblue; min-height: 250px; margin-left: 10px; margin-right: 10px; margin-bottom: 10px; border-radius: 20px;">
+			<div id="panels">
+			<h1 style="color: darkblue">About US</h1>
+			<p> Ademovic Technologies is a technology-enabled automobile workshop <br>with enhanced capacity to cater for after-sale maintenance and repair needs of modern vehicles in Nigeria.</p>
+	
+			<h2 style="color: darkblue"> Our Philosophy </h3>
+			<p> We hold the highest standards of integrity and strive for excellence<br> and to deliver highest quality products and services at all times.</p>
+	
+			<h2 style="color: darkblue"> Our Vision</h2>
+			<p> Our Vision is to foster an organization culture of customer orientation. <br> that treats every customer with respect and consideration.</p>	
+			</div>
+		</div>
+		</div>
+	
+		
+		<div class="col-md-6">
+			<div style="min-height: 250px; background-color: #559e54; color: black; padding: 10px;padding-left: 20px;  border-left: 10px solid maroon; margin-right: 10px; margin-left: 10px; margin-bottom: 10px; border-radius: 20px">
+				<h2 style="color: maroon"> Office Address </h2> 
+				<p><span class="glyphicon glyphicon-home"></span> Head Office: 22, Akeem Balogun street, Agidingbin, Ikeja, Lagos.</p>
+				<p><span class="glyphicon glyphicon-briefcase"></span> Annex: 2, Road 3C, Oni Crownland Estate, Ajebandele, Ile-Ife.</p>
+				<p><span class="glyphicon glyphicon-phone-alt"></span> 0907 780 2793, 0903 763 5572.</p>
+				<p><span class="glyphicon glyphicon-envelope"></span> adenelson46@gmail.com</p>		
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div id="footer" style="margin: 10px; border-radius: 10px;">
+	<ul>
+		<li><a href="index.html"> Home</a> </li>
+		<li><a href="about.html"> About </a></li>
+		<li><a href="contact.html"> Conatct Us</a> </li>
+		<li><a href="portfolio.html"> Portfolio</a> </li>
+	</ul>
+&copy; 2018 ademovic.com.ng All Rights Reserved. 
+</div>
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery.min.js"></script>
+	<script src="jqueryui/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+   <!-- <script src="bootstrap/js/bootstrap.min.js"></script>-->
+	<script>
+		$(document).ready(function() {
+			$("img").tooltip({show: {effect: "explode", duration:600,}}, {track: true}	);
+			$("#panels").accordion({animate: 900, collapsible: true}, {icons: { header: "ui-icon-mail-closed", activeHeader: "ui-icon-mail-open"}});
+
+		});
+	</script>
+  </body>
+</html>

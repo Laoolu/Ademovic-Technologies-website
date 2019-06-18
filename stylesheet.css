@@ -80,6 +80,8 @@ background-color: teal;
 	line-height: 30px;
 	margin: 10px;
   }
+
+
 /* footer */
 #footer{
 background-color: teal;
@@ -159,5 +161,6 @@ h4 {
 
 .form-control {
 	width: 250px;
+	background-color: #dde3fd;
 }
 
